@@ -1,5 +1,5 @@
 #importing modules
-#Coded by HEMANTH N
+
 
 
 import pygame
@@ -11,7 +11,7 @@ from pygame.locals import *
 
 #initializing pygame
 pygame.init()
-#Coded by HEMANTH N
+
 #resolution of the screen
 WIDTH=800
 HEIGHT=600
@@ -26,7 +26,7 @@ pygame.display.set_icon(icon)
 player_image=pygame.image.load("rocket.png")
 player_size=30
 player_pos=[int(WIDTH/2),int(HEIGHT-3*player_size)]
-#Coded by HEMANTH N
+
 #enemy
 enemy_image=pygame.image.load("asteroid.png")
 enemy_size = 50
@@ -98,7 +98,7 @@ def collision(player_pos, enemy_pos):
             explosion.play()
             return True
     return False
-#Coded by HEMANTH N
+
 def gameover(game_over, score):
     screen.blit(background,(0,0))
     text=" Game Over !"
@@ -147,7 +147,7 @@ while(1):
     elif game_over==True:
         gameover(game_over, score)
         pygame.display.update()
-#Coded by HEMANTH N
+
 pygame.display.update()
-#Coded by HEMANTH N
+
 
