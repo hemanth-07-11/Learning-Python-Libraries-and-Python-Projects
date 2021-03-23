@@ -11,7 +11,5 @@ If status code corresponds to failure, then reason of failure would be shown in 
 
 ## Prerequisites
 
-This program uses an external dependency of "emoji" library to display the emojis in output.
-This library can be installed easily by using the following command:
-pip install -r requirements.txt
+Install "emoji" library to display the thumbsup emoji while execution 
 
